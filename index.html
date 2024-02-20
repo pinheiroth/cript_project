@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador</title>
+    <link rel="icon" href="style/icon2.png">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+      <h1 class="titulo">Decodificador</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="main-container">
+                <section class="first_container">
+                    <div class="input">
+                        <textarea id="text-input-area" placeholder="Insira o texto (apenas letras minusculas !)"></textarea>
+                    </div>
+
+                    <div class="buttons">
+                        <button id="cript-btn" onclick="criptografar()">Criptografar</button>
+                        <button id="descript-btn" onclick="descriptografar()"> Descriptografar</button>
+                    </div>
+                </section>
+
+                <section class="second_conteiner">
+                    <div id="output">
+                        <div class="image-search">
+                            <img src="style/securit.jpg" alt="">
+                        </div>
+    
+                        <div class="text-search">
+                            <p>Não foi encontrado nenhuma mensagem</p>
+                        </div>
+                    </div>
+                    <div class="buttons">
+                        <button onclick="binary()" class="binary">Binario</button>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <h2>Desenvolvido por PinheiroTh.</h2>
+            <a href="https://www.linkedin.com/in/thomas-tech/" ><img src="style/linkedin.png" alt=""></a>
+            <a href="https://github.com/pinheiroth" ><img src="style/github.png" alt=""></a>
+            <a href="" ><img src="style/instagram.png" alt=""></a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
